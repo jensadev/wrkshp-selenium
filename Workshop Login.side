@@ -100,7 +100,28 @@
       "command": "verifyTitle",
       "target": "",
       "targets": [],
-      "value": "Blank"
+      "value": ""
+    }, {
+      "id": "b9fa3a77-1631-4e7c-97d5-b594dc00d117",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [],
+      "value": "test@test.se"
+    }, {
+      "id": "3bc9bf74-396a-4df5-a7a3-b701607f4e76",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [],
+      "value": "test"
+    }, {
+      "id": "94c071e2-16a6-414a-994b-9ffb666083d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{
