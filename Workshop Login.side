@@ -17,9 +17,9 @@
       "id": "766afe75-d333-475d-9d86-a09f5df837f2",
       "comment": "",
       "command": "verifyTitle",
-      "target": "",
+      "target": "Login form",
       "targets": [],
-      "value": "Login form"
+      "value": ""
     }, {
       "id": "176a0cd6-a035-44ae-bde3-9c9799ae28dc",
       "comment": "",
@@ -98,7 +98,7 @@
       "id": "7914524a-e0f1-42df-9ac2-e2970ec125cc",
       "comment": "",
       "command": "verifyTitle",
-      "target": "",
+      "target": "Blank",
       "targets": [],
       "value": ""
     }, {
