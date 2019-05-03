@@ -102,6 +102,20 @@
       "targets": [],
       "value": ""
     }, {
+      "id": "02f4a933-a25b-4eda-b230-2dc703acb7a2",
+      "comment": "",
+      "command": "assertText",
+      "target": "link=Home",
+      "targets": [],
+      "value": "Home"
+    }, {
+      "id": "647548d2-e9e8-4e45-a2ee-87d414fb5075",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=form",
+      "targets": [],
+      "value": ""
+    }, {
       "id": "b9fa3a77-1631-4e7c-97d5-b594dc00d117",
       "comment": "",
       "command": "type",
