@@ -1,0 +1,116 @@
+{
+  "id": "67bb3c94-b0b8-48d3-ad0f-a688d446441f",
+  "version": "2.0",
+  "name": "Workshop Login",
+  "url": "https://jensnti.github.io",
+  "tests": [{
+    "id": "ba5e1db9-6eee-4547-9331-d02fddb9ae57",
+    "name": "workshop login",
+    "commands": [{
+      "id": "fbb61e02-48ce-4ca2-8971-49589ee8e87f",
+      "comment": "",
+      "command": "open",
+      "target": "/wrkshp-selenium/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "766afe75-d333-475d-9d86-a09f5df837f2",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "",
+      "targets": [],
+      "value": "Login form"
+    }, {
+      "id": "176a0cd6-a035-44ae-bde3-9c9799ae28dc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1460x1040",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "be570949-5dff-4aaa-be7d-d3fb65f237ae",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputEmail",
+      "targets": [
+        ["id=inputEmail", "id"],
+        ["css=#inputEmail", "css:finder"],
+        ["xpath=//input[@id='inputEmail']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@test.se"
+    }, {
+      "id": "573ff8cd-c75d-48e1-9664-8c4423d6745a",
+      "comment": "",
+      "command": "type",
+      "target": "id=inputPassword",
+      "targets": [
+        ["id=inputPassword", "id"],
+        ["css=#inputPassword", "css:finder"],
+        ["xpath=//input[@id='inputPassword']", "xpath:attributes"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "test"
+    }, {
+      "id": "88cf1e8d-aa18-4dcb-9d87-ec6384079b11",
+      "comment": "",
+      "command": "click",
+      "target": "id=inputRemember",
+      "targets": [
+        ["id=inputRemember", "id"],
+        ["css=#inputRemember", "css:finder"],
+        ["xpath=//input[@id='inputRemember']", "xpath:attributes"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2e2b052-bf50-418d-98e1-53af7e40c0f3",
+      "comment": "",
+      "command": "assertChecked",
+      "target": "id=inputRemember",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cac18148-9c1e-4e25-92a5-7fc3e2fd2084",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//button[@id='submit']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "91f2db21-2160-4876-b995-8965688212bd",
+    "name": "workshop login blank",
+    "commands": [{
+      "id": "f3105dcb-7b79-48ce-a3ee-c9ff855539ed",
+      "comment": "",
+      "command": "open",
+      "target": "/wrkshp-selenium/blank.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7914524a-e0f1-42df-9ac2-e2970ec125cc",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "",
+      "targets": [],
+      "value": "Blank"
+    }]
+  }],
+  "suites": [{
+    "id": "2ddab3ac-f44f-4987-886c-819e895e3a78",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ba5e1db9-6eee-4547-9331-d02fddb9ae57"]
+  }],
+  "urls": ["https://jensnti.github.io/"],
+  "plugins": []
+}
